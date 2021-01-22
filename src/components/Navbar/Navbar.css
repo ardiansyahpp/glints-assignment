@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+
+.logo {
+    color: antiquewhite;
+    font-size: 25px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+
+.nav-links {
+    list-style: none;
+    font-size: larger;
+    text-shadow: 1px 1px 1px white;
+}

@@ -1,0 +1,30 @@
+.projects-title {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.projects {
+    width: 90%;
+    margin: auto;
+}
+
+.projects-container {
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.projects-list {
+    background-color: rgba(89, 58, 95, 0.3);
+    list-style: none;
+    padding: 15px 25px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.projects-list:hover {
+    background-color: fuchsia;
+}
