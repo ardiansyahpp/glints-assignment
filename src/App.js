@@ -5,10 +5,10 @@ import Navbar from './components/Navbar/Navbar';
 import Projects from './components/Projects/Projects';
 import AboutMe from './components/AboutMe/AboutMe';
 import Contact from "./components/Contact/Contact";
-import Books from './components/Projects/Books/Books';
 import Contributor from './components/Projects/Contributor/Contributor';
 import CardsComponent from './components/Projects/Cards/CardsComponent';
 import CardsDetail from './components/Projects/Cards/CardsDetails';
+import Books from './components/Projects/Books/Books';
 
 function App() {
   return (
