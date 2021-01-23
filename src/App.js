@@ -5,9 +5,10 @@ import Navbar from './components/Navbar/Navbar';
 import Projects from './components/Projects/Projects';
 import AboutMe from './components/AboutMe/AboutMe';
 import Contact from "./components/Contact/Contact";
-import Cards from './components/Projects/Cards/Cards';
 import Books from './components/Projects/Books/Books';
 import Contributor from './components/Projects/Contributor/Contributor';
+import CardsComponent from './components/Projects/Cards/CardsComponent';
+import CardsDetail from './components/Projects/Cards/CardsDetails';
 
 function App() {
   return (
@@ -19,9 +20,10 @@ function App() {
           <Route path='/projects' exact component={Projects}/>
           <Route path='/about-me' component={AboutMe}/>
           <Route path='/contact' component={Contact}/>
-          <Route path='/cards' component={Cards}/>
+          <Route path='/cards' exact component={CardsComponent}/>
           <Route path='/books' component={Books}/>
           <Route path='/contributor' component={Contributor}/>
+          <Route path='/cards/:id' component={CardsDetail}/>
         </Switch>
       </div>
     </Router>
