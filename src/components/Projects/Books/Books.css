@@ -1,0 +1,47 @@
+.books-list {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    padding: 10px 10px;
+}
+
+.books-form {
+    margin-top: 30px;
+}
+
+.books-input {
+    margin-left: 10px;
+    padding: 5px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.books-addbtn {
+    padding: 5px 10px;
+    border-radius: 10px;
+    border-style: none;
+    margin-left: 10px;
+}
+
+.books-addbtn:hover {
+    background-color: blueviolet;
+    color: cornsilk;
+}
+
+.books-preview {
+    text-align: center;
+    display: flex;
+    background-color: darkviolet;
+    flex-direction: column;
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px;
+    justify-content: space-evenly;
+}
+
+.books-form {
+    text-align: center;
+}
