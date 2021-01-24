@@ -9,7 +9,7 @@ import Contributor from './components/Projects/Contributor/Contributor';
 import CardsComponent from './components/Projects/Cards/CardsComponent';
 import CardsDetail from './components/Projects/Cards/CardsDetails';
 import Books from './components/Projects/Books/Books';
-// import BooksList from './components/Projects/Books/BooksList';
+import ContributorDetail from "./components/Projects/Contributor/ContributorDetail";
 
 function App() {
   return (
@@ -23,7 +23,8 @@ function App() {
           <Route path='/contact' component={Contact}/>
           <Route path='/cards' exact component={CardsComponent}/>
           <Route path='/books' component={Books}/>
-          <Route path='/contributor' component={Contributor}/>
+          <Route path='/contributor' exact component={Contributor}/>
+          <Route path='/contributor-detail/:id' exact component={ContributorDetail}/>
           <Route path='/cards/:id' component={CardsDetail}/>
         </Switch>
       </div>
